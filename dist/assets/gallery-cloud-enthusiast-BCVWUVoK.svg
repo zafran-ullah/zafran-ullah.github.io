@@ -1,0 +1,80 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background glow -->
+  <circle cx="40" cy="40" r="35" fill="url(#glowGradient)"/>
+  
+  <!-- Main cloud -->
+  <ellipse cx="40" cy="35" rx="18" ry="8" fill="url(#cloudGradient)"/>
+  <circle cx="28" cy="35" r="6" fill="url(#cloudGradient)"/>
+  <circle cx="52" cy="35" r="6" fill="url(#cloudGradient)"/>
+  <circle cx="35" cy="28" r="5" fill="url(#cloudGradient)"/>
+  <circle cx="45" cy="28" r="5" fill="url(#cloudGradient)"/>
+  
+  <!-- AWS logo representation -->
+  <rect x="15" y="50" width="12" height="8" rx="1" fill="#ff9900" opacity="0.8"/>
+  <text x="21" y="57" font-family="Arial" font-size="6" fill="#ffffff" text-anchor="middle" font-weight="bold">AWS</text>
+  
+  <!-- Azure logo representation -->
+  <polygon points="30,50 38,50 34,58 30,58" fill="#0078d4" opacity="0.8"/>
+  <text x="34" y="62" font-family="Arial" font-size="5" fill="#0078d4" text-anchor="middle">Azure</text>
+  
+  <!-- GCP logo representation -->
+  <circle cx="52" cy="54" r="6" fill="#4285f4" opacity="0.8"/>
+  <text x="52" y="57" font-family="Arial" font-size="5" fill="#ffffff" text-anchor="middle" font-weight="bold">GCP</text>
+  
+  <!-- Data flow lines -->
+  <path d="M25 45 Q30 40 35 45 Q40 35 45 40 Q50 45 55 40" stroke="#10b981" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Server icons -->
+  <rect x="20" y="20" width="6" height="8" rx="1" fill="#374151" opacity="0.8"/>
+  <line x1="21" y1="22" x2="25" y2="22" stroke="#10b981" stroke-width="1"/>
+  <line x1="21" y1="24" x2="25" y2="24" stroke="#0ea5e9" stroke-width="1"/>
+  <line x1="21" y1="26" x2="25" y2="26" stroke="#f59e0b" stroke-width="1"/>
+  
+  <rect x="54" y="20" width="6" height="8" rx="1" fill="#374151" opacity="0.8"/>
+  <line x1="55" y1="22" x2="59" y2="22" stroke="#10b981" stroke-width="1"/>
+  <line x1="55" y1="24" x2="59" y2="24" stroke="#0ea5e9" stroke-width="1"/>
+  <line x1="55" y1="26" x2="59" y2="26" stroke="#f59e0b" stroke-width="1"/>
+  
+  <!-- Docker containers -->
+  <rect x="10" y="65" width="8" height="6" rx="1" fill="#2496ed" opacity="0.8"/>
+  <circle cx="12" cy="67" r="1" fill="#ffffff"/>
+  <circle cx="16" cy="67" r="1" fill="#ffffff"/>
+  <text x="14" y="75" font-family="Arial" font-size="4" fill="#2496ed" text-anchor="middle">Docker</text>
+  
+  <!-- Kubernetes -->
+  <polygon points="62,65 68,65 70,68 68,71 62,71 60,68" fill="#326ce5" opacity="0.8"/>
+  <circle cx="65" cy="68" r="1.5" fill="#ffffff"/>
+  <text x="65" y="76" font-family="Arial" font-size="4" fill="#326ce5" text-anchor="middle">K8s</text>
+  
+  <!-- Terraform -->
+  <polygon points="35,65 41,65 39,71 37,71" fill="#623ce4" opacity="0.8"/>
+  <text x="38" y="76" font-family="Arial" font-size="4" fill="#623ce4" text-anchor="middle">TF</text>
+  
+  <!-- Monitoring icons -->
+  <circle cx="68" cy="15" r="4" fill="#f46800" opacity="0.8"/>
+  <path d="M66 15 L68 13 L70 15 L68 17 Z" fill="#ffffff"/>
+  
+  <circle cx="12" cy="15" r="4" fill="#e6522c" opacity="0.8"/>
+  <rect x="10" y="13" width="4" height="4" rx="0.5" fill="#ffffff"/>
+  
+  <!-- Network connections -->
+  <circle cx="40" cy="55" r="2" fill="#10b981"/>
+  <line x1="27" y1="54" x2="38" y2="55" stroke="#10b981" stroke-width="1" opacity="0.7"/>
+  <line x1="42" y1="55" x2="50" y2="54" stroke="#10b981" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Data packets -->
+  <rect x="30" y="12" width="3" height="2" rx="0.5" fill="#0ea5e9" opacity="0.6"/>
+  <rect x="47" y="45" width="3" height="2" rx="0.5" fill="#0ea5e9" opacity="0.6"/>
+  <rect x="65" y="35" width="3" height="2" rx="0.5" fill="#0ea5e9" opacity="0.6"/>
+</svg>
